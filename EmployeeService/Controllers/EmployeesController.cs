@@ -122,7 +122,7 @@ namespace EmployeeService.Controllers
                     return NotFound("Employee does not exist");
                 }
             }
-            catch (Exception ex)
+            catch 
             {
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
