@@ -1,0 +1,59 @@
+{
+  "Routes": [
+    {
+      //https:localhost:44378/api/auth
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44378
+        }
+      ],
+      "UpstreamPathTemplate": "/authservice"
+    },
+    {
+      //https:localhost:44378/api/auth
+      "DownstreamPathTemplate": "/api/auth/{param}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44378
+        }
+      ],
+      "UpstreamPathTemplate": "/authservice/{param}"
+    },
+    {
+      //https:localhost:44378/api/employees
+      "DownstreamPathTemplate": "/api/employees",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44319
+        }
+      ],
+      "UpstreamPathTemplate": "/employeeservice"
+    },
+    {
+      //https:localhost:44378/api/employees
+      "DownstreamPathTemplate": "/api/employees/{param}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44319
+        }
+      ],
+      "UpstreamPathTemplate": "/employeeservice/{param}"
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:44369"
+
+    //client will call https://localhost:44369/authservice
+    //client will call https://localhost:44369/employeeservice
+  }
+}

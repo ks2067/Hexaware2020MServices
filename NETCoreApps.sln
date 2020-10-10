@@ -7,15 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmsMvc_Repo_Inmemory", "Ems
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmsMvc_Repo_EFCoreCF", "EmsMvc_Repo_EFCoreCF\EmsMvc_Repo_EFCoreCF.csproj", "{E9A0AC2E-F87D-447B-AD5B-697B94B4F4BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmsMvc_Repo_EFCore_CF_MultiModel", "EmsMvc_Repo_EFCore_CF_MultiModel\EmsMvc_Repo_EFCore_CF_MultiModel.csproj", "{074AA21C-9417-4545-B907-3DF603769EFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmsMvc_Repo_EFCore_CF_MultiModel", "EmsMvc_Repo_EFCore_CF_MultiModel\EmsMvc_Repo_EFCore_CF_MultiModel.csproj", "{074AA21C-9417-4545-B907-3DF603769EFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmsServices", "EmsServices", "{34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{6B4E257E-0AF4-435C-AA3D-111AE90217FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{6B4E257E-0AF4-435C-AA3D-111AE90217FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentService", "DepartmentService\DepartmentService.csproj", "{E5094EF6-E5B4-47F5-9D8F-2A5698834F37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentService", "DepartmentService\DepartmentService.csproj", "{E5094EF6-E5B4-47F5-9D8F-2A5698834F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectService", "ProjectService\ProjectService.csproj", "{516347CD-C207-45F8-8375-C6DB88C63000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectService", "ProjectService\ProjectService.csproj", "{516347CD-C207-45F8-8375-C6DB88C63000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{32646EA7-6C50-4119-BD63-161008842A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{D68CF44E-5A1E-43FC-AE97-1456784E8AD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{516347CD-C207-45F8-8375-C6DB88C63000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516347CD-C207-45F8-8375-C6DB88C63000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516347CD-C207-45F8-8375-C6DB88C63000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32646EA7-6C50-4119-BD63-161008842A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32646EA7-6C50-4119-BD63-161008842A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32646EA7-6C50-4119-BD63-161008842A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32646EA7-6C50-4119-BD63-161008842A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68CF44E-5A1E-43FC-AE97-1456784E8AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68CF44E-5A1E-43FC-AE97-1456784E8AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68CF44E-5A1E-43FC-AE97-1456784E8AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68CF44E-5A1E-43FC-AE97-1456784E8AD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{6B4E257E-0AF4-435C-AA3D-111AE90217FF} = {34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}
 		{E5094EF6-E5B4-47F5-9D8F-2A5698834F37} = {34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}
 		{516347CD-C207-45F8-8375-C6DB88C63000} = {34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}
+		{32646EA7-6C50-4119-BD63-161008842A1C} = {34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}
+		{D68CF44E-5A1E-43FC-AE97-1456784E8AD6} = {34E9665F-AA1B-41CA-B1A1-B9CC07F47F9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5B51FC9-B908-48DC-8DE4-F79FA2AAE077}
